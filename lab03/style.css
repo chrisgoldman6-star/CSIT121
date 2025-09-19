@@ -1,0 +1,38 @@
+#header1 {
+    font-size: 40px;
+    text-align:center; 
+    color: lightgreen;
+}
+body {
+    background-image: url("matrix.jpg");
+}
+p {
+    font-size: 20px;
+    color: lightgreen;
+}
+ol {
+    font-size: 20px;
+    color:lightgreen
+}
+ul {
+    color: lightgreen;
+}
+em {
+    font-size: 15px;
+    color: lightgreen;
+}
+h2 {
+    font-size: 30px;
+    color: lightgreen;
+}
+.author {
+    font-size: 15px;
+    font-style: italic;
+    color:lightgreen
+}
+h3 {
+    color: lightgreen;
+}
+a {
+    color: yellow;
+}
