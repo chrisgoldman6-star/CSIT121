@@ -1,0 +1,69 @@
+#header1 {
+    font-size: 40px;
+    text-align:center; 
+    color: lightgreen;
+    background-color: rgb(26, 25, 25);
+    margin: 1px;
+    padding:30px;
+}
+body {
+    background-image: url("matrix.jpg");
+}
+footer {
+    background-color: rgb(26, 25, 25);
+    text-align: center;
+    padding: 20px
+}
+p {
+    font-size: 20px;
+    color: lightgreen;
+}
+ol {
+    font-size: 20px;
+    color:lightgreen
+}
+ul {
+    color: lightgreen;
+}
+em {
+    font-size: 15px;
+    color: lightgreen;
+}
+h2 {
+    font-size: 30px;
+    color: lightgreen;
+}
+.author {
+    font-size: 15px;
+    font-style: italic;
+    color:lightgreen
+}
+h3 {
+    color: lightgreen;
+}
+a {
+    color: yellow;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 55px
+}
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
